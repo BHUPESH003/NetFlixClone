@@ -14,10 +14,10 @@ const Header = () => {
 
    
       <ul className='w-[100%] ml-10 text-[1.1rem] font-normal'>
-        <Link to='/tvShows' className='mr-10'>Tv Shows</Link>
-        <Link to='/tvShows' className='mr-10'>Movies</Link>
-        <Link to='/tvShows' className='mr-10'>Recently Added</Link>
-        <Link to='/tvShows' className='mr-10'>My-list</Link>
+        <Link to='/' className='mr-10'>Tv Shows</Link>
+        <Link to='/' className='mr-10'>Movies</Link>
+        <Link to='/' className='mr-10'>Recently Added</Link>
+        <Link to='/' className='mr-10'>My-list</Link>
       </ul>
       <ImSearch className='flex justify-end text-[1.5rem] cursor-pointer mr-2'/>
 
